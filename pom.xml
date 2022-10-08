@@ -55,6 +55,19 @@
 			<version>3.1.4</version>
 		</dependency>
 
+		<!--Cloud Config Client-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-client</artifactId>
+			<version>3.1.4</version>
+		</dependency>
+
+		<!--To downwload the configuration file from Spring cloud config server-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+			<version>3.1.4</version>
+		</dependency>
 	</dependencies>
 
 	<build>
